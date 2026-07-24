@@ -12,7 +12,7 @@ def _fake_run(stdout='{"terraform_version": "1.10.2"}'):
 def test_check_tools_all_found():
     checks = check_tools("linux", which=lambda name: f"/usr/bin/{name}", run=_fake_run())
     assert all_ok(checks) is True
-    assert len(checks) == 6
+    assert len(checks) == 5
 
 
 def test_check_tools_missing_tool():

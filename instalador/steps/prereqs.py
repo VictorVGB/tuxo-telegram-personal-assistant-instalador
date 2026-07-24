@@ -16,7 +16,6 @@ _INSTALL_LINKS = {
         "terraform": "https://developer.hashicorp.com/terraform/install",
         "aws": "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
         "gh": "https://cli.github.com/",
-        "claude": "https://code.claude.com/docs/en/setup",
     },
     "windows": {
         "git": "https://git-scm.com/download/win",
@@ -24,7 +23,6 @@ _INSTALL_LINKS = {
         "terraform": "https://developer.hashicorp.com/terraform/install",
         "aws": "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
         "gh": "https://cli.github.com/",
-        "claude": "https://code.claude.com/docs/en/setup",
     },
     "linux": {
         "git": "https://git-scm.com/download/linux",
@@ -32,11 +30,10 @@ _INSTALL_LINKS = {
         "terraform": "https://developer.hashicorp.com/terraform/install",
         "aws": "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
         "gh": "https://cli.github.com/",
-        "claude": "https://code.claude.com/docs/en/setup",
     },
 }
 
-_TOOLS = ("git", "docker", "terraform", "aws", "gh", "claude")
+_TOOLS = ("git", "docker", "terraform", "aws", "gh")
 
 
 @dataclass
