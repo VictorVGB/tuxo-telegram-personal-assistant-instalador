@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Ambiente
+.env
+.env.local
+
+# Cópia local do vault (clonada do repositório do vault em runtime)
+.vault-cache/
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/.terraform.lock.hcl
+infra/terraform.tfvars
+
+# Instalador — arquivos gerados por instalação
+instalador/.instalador-estado.json
+instalador/RESUMO.md
+instalador/infra/terraform.tfvars
+instalador/infra/backend.hcl
+instalador/infra/.terraform/
+instalador/infra/.terraform.lock.hcl
+instalador/infra/*.tfstate
+instalador/infra/*.tfstate.*
+instalador/infra/lambda_vault_lint.zip

@@ -1,0 +1,15 @@
+.git
+.env
+.env.local
+.venv
+venv
+__pycache__
+*.py[cod]
+.mypy_cache
+.ruff_cache
+.vault-cache
+infra
+openspec
+.claude
+scripts
+*.md
